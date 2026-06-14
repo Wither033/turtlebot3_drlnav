@@ -45,6 +45,8 @@ setup(
             'train_agent = turtlebot3_drl.drl_agent.drl_agent:main_train',
             'test_agent = turtlebot3_drl.drl_agent.drl_agent:main_test',
             'real_agent = turtlebot3_drl.drl_agent.drl_agent:main_real',
+            'parallel_train_agent = turtlebot3_drl.drl_agent.parallel_train_agent:main',
+            'parallel_sampler_worker = turtlebot3_drl.drl_agent.parallel_sampler_worker:main',
         ],
     },
 )
